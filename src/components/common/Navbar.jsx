@@ -1,17 +1,17 @@
-import "./Navbar.css";
+import './Navbar.css';
 
 function navbar() {
   return (
-    <div className="navbar">
-      <div id="brand">
-        <p>Zidan Garage</p>
+    <div class="navbar">
+      <div class="navbar-hero">
+        <a href="#" class="current">Zidan Garage</a>
       </div>
-      <nav id="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portofolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <nav class="navbar-nav">
+        <a href="#" class="current">Home</a>
+        <a href="#">Portofolio</a>
+        <a href="#">Pictures</a>
+        <a href="#">Fun Stuff</a>
+        <a href="#">Survey</a>
       </nav>
     </div>
   );
