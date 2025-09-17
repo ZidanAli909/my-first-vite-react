@@ -1,45 +1,30 @@
-.navbar {
-    /* size & structure */
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    /* background & fx */
-    background-color: rgb(245, 245, 245);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-}
+@import "tailwindcss";
 
-#brand {
-    height: 48px;
-    padding: 0px 24px;
-}
+@layer {
+    .navbar {
+        @apply w-screen h-14;
+        @apply flex;
+        @apply bg-green-900;
+        @apply text-white;
+    }
 
-#brand p {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+    .navbar-hero {
+        @apply flex items-center; /* Centering content */
+        @apply h-full;
+        @apply pl-6 pr-6;
+        @apply text-xl;
+        @apply hover:text-2xl transition-all;
+    }
 
-nav ul {
-    /* size & structure */
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
+    .navbar-nav {
+        @apply ml-auto;
+        @apply flex;
+    }
 
-nav li {
-    height: 48px;
-}
-
-nav a {
-    /* size & structure */
-    height: 100%;
-    padding: 0px 24px;
-    display: flex;
-    align-items: center;
-    /* color & text */
-    color: black;
-    text-decoration: none;
+    .navbar-nav a {
+        @apply h-full;
+        @apply pl-3 pr-3;
+        @apply hover:bg-white/25 hover:text-lg transition-all;
+        @apply flex items-center; /* Centering content */
+    }
 }
