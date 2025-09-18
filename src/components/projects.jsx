@@ -1,14 +1,14 @@
 // Logo
-import img_html from '../../assets/svg/logo/html-5.svg';
-import img_css from '../../assets/svg/logo/css-3.svg';
-import img_js from '../../assets/svg/logo/javascript.svg';
-import img_react from '../../assets/svg/logo/react.svg';
-import img_express from '../../assets/svg/logo/express-js.svg';
-import img_android from '../../assets/svg/logo/android-studio.svg';
-import img_kotlin from '../../assets/svg/logo/kotlin.svg';
-import img_java from '../../assets/svg/logo/java.svg';
+import img_html from '../assets/svg/logo/html-5.svg';
+import img_css from '../assets/svg/logo/css-3.svg';
+import img_js from '../assets/svg/logo/javascript.svg';
+import img_react from '../assets/svg/logo/react.svg';
+import img_express from '../assets/svg/logo/express-js.svg';
+import img_android from '../assets/svg/logo/android-studio.svg';
+import img_kotlin from '../assets/svg/logo/kotlin.svg';
+import img_java from '../assets/svg/logo/java.svg';
 // End-of Logo
-import '../common/global.css';
+import './common/global.css';
 
 function portofolio_stacks() {
     return (

@@ -1,6 +1,6 @@
-import zidanImg from "../../assets/img/zidan/passphoto.webp";
-import "../common/global.css";
-import "./Home.css";
+import zidanImg from "../assets/img/zidan/passphoto.webp";
+import "./common/global.css";
+import "./about.css";
 
 function Home_about() {
   return (

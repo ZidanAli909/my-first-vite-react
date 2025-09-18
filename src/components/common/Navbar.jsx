@@ -9,23 +9,23 @@ function navbar() {
       </div>
       <nav class="navbar-nav">
         <a href="#" class="active">
-          <span class="material-symbols-outlined">home</span>
+          <span class="material-symbols-outlined filled">home</span>
           Home
         </a>
         <a href="#">
-          <span class="material-symbols-outlined">work</span>
+          <span class="material-symbols-outlined filled">work</span>
           Portofolio
         </a>
         <a href="#">
-          <span class="material-symbols-outlined">image</span>
+          <span class="material-symbols-outlined filled">image</span>
           Pictures
         </a>
         <a href="#">
-          <span class="material-symbols-outlined">family_star</span>
+          <span class="material-symbols-outlined filled">family_star</span>
           Fun Stuff
         </a>
         <a href="#">
-          <span class="material-symbols-outlined">ballot</span>
+          <span class="material-symbols-outlined filled">ballot</span>
           Survey
         </a>
       </nav>

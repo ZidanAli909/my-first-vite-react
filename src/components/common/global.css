@@ -20,3 +20,7 @@
 .techstacks_logo {
     @apply w-20 h-20 m-4;
 }
+
+.material-symbols-outlined.filled {
+    font-variation-settings: 'FILL' 1;
+}

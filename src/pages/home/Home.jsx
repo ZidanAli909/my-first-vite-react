@@ -1,5 +1,5 @@
-import Home_about from "./about";
-import Portofolio_stacks from "../portofolio/projects";
+import Home_about from "../../components/about";
+import Portofolio_stacks from "../../components/projects";
 
 function Home() {
     return (
