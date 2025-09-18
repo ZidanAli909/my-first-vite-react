@@ -1,4 +1,5 @@
 import './Navbar.css';
+import './global.css';
 
 function navbar() {
   return (
@@ -7,11 +8,26 @@ function navbar() {
         <a href="#" class="current">Zidan Garage</a>
       </div>
       <nav class="navbar-nav">
-        <a href="#" class="current">Home</a>
-        <a href="#">Portofolio</a>
-        <a href="#">Pictures</a>
-        <a href="#">Fun Stuff</a>
-        <a href="#">Survey</a>
+        <a href="#" class="active">
+          <span class="material-symbols-outlined">home</span>
+          Home
+        </a>
+        <a href="#">
+          <span class="material-symbols-outlined">work</span>
+          Portofolio
+        </a>
+        <a href="#">
+          <span class="material-symbols-outlined">image</span>
+          Pictures
+        </a>
+        <a href="#">
+          <span class="material-symbols-outlined">family_star</span>
+          Fun Stuff
+        </a>
+        <a href="#">
+          <span class="material-symbols-outlined">ballot</span>
+          Survey
+        </a>
       </nav>
     </div>
   );

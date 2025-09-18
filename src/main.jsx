@@ -6,7 +6,12 @@ import Home from './components/home/Home.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar />
-    <Home />
+    <head>
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body class="bg-gray-100 w-full">
+      <Navbar />
+      <Home />
+    </body>
   </StrictMode>,
 )

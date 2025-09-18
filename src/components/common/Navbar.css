@@ -2,29 +2,39 @@
 
 @layer {
     .navbar {
-        @apply w-screen h-14;
+        @apply w-screen h-14 fixed z-50;
         @apply flex;
-        @apply bg-green-900;
+        @apply bg-gray-900;
         @apply text-white;
     }
 
     .navbar-hero {
         @apply flex items-center; /* Centering content */
-        @apply h-full;
-        @apply pl-6 pr-6;
-        @apply text-xl;
-        @apply hover:text-2xl transition-all;
+        @apply h-full pl-6 pr-6;
+        @apply bg-green-900 hover:bg-green-700;
+        @apply text-xl hover:text-2xl transition-all;
+        @apply font-semibold;
     }
 
     .navbar-nav {
-        @apply ml-auto;
+        @apply ml-auto mr-6;
         @apply flex;
     }
 
     .navbar-nav a {
         @apply h-full;
         @apply pl-3 pr-3;
-        @apply hover:bg-white/25 hover:text-lg transition-all;
+        @apply text-green-400;
+        @apply hover:bg-green-700 hover:text-white hover:text-lg;
+        @apply transition-all;
         @apply flex items-center; /* Centering content */
+    }
+
+    .navbar-nav span {
+        @apply mr-1;
+    }
+
+    .navbar-nav .active {
+        @apply font-bold
     }
 }
