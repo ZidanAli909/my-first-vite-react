@@ -2,16 +2,22 @@
 
 @layer {
     .navbar {
-        @apply w-screen h-14 fixed z-50;
+        @apply w-screen fixed z-50;
         @apply flex;
         @apply bg-gray-900;
         @apply text-white;
     }
 
+    .navbar, .navbar-break {
+        @apply h-14; /* Navbar height */
+    }
+
     .navbar-hero {
         @apply flex items-center; /* Centering content */
-        @apply h-full pl-6 pr-6;
-        @apply bg-green-900 hover:bg-green-700;
+        @apply h-full ml-3 pl-6 pr-6;
+        @apply bg-green-900;
+        @apply hover:bg-green-700;
+        @apply active:bg-white active:text-green-700;
         @apply text-xl hover:text-2xl transition-all;
         @apply font-semibold;
     }
@@ -21,11 +27,12 @@
         @apply flex;
     }
 
-    .navbar-nav a {
+    .navbar-nav a, .navbar-navli {
         @apply h-full;
         @apply pl-3 pr-3;
         @apply text-green-400;
         @apply hover:bg-green-700 hover:text-white hover:text-lg;
+        @apply active:bg-white active:text-green-400;
         @apply transition-all;
         @apply flex items-center; /* Centering content */
     }
