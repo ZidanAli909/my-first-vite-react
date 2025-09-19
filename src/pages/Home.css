@@ -1,14 +1,20 @@
 @import "tailwindcss";
 
-.card_about {
+@layer {
+  body {
+    @apply bg-gray-100 w-full;
+  }
+
+  .card_about {
     @apply max-w-2xl mx-auto ml-auto mr-auto mt-4 mb-4;
     @apply max-md:w-auto max-md:ml-4 max-md:mr-4;
-}
+  }
 
-.card_about_img {
+  .card_about_img {
     @apply ml-6 w-60 max-sm:ml-auto max-sm:mr-auto;
-}
+  }
 
-.card_about_details {
+  .card_about_details {
     @apply p-6;
+  }
 }

@@ -9,20 +9,6 @@
     @apply rounded-xl shadow-lg overflow-hidden;
 }
 
-.navbar_break {
-    @apply h-14;
-}
-
-.techstacks_logo_contain {
-    @apply flex flex-row flex-wrap justify-center;
-}
-
-.techstacks_logo {
-    @apply w-20 h-20 m-4 drop-shadow-md;
-    @apply hover:w-30 hover:h-30;
-    @apply transition-all;
-}
-
 .material-symbols-outlined.filled {
     font-variation-settings: 'FILL' 1;
 }

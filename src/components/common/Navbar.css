@@ -23,7 +23,7 @@
     }
 
     .navbar-nav {
-        @apply ml-auto mr-6;
+        @apply ml-auto mr-6 max-md:hidden;
         @apply flex;
     }
 
