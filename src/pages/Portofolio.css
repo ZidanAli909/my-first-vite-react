@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 .techstacks_logo_contain {
-    @apply flex flex-row flex-wrap justify-center;
+    @apply flex flex-row flex-wrap justify-center ml-auto mr-auto;
+    @apply content-evenly items-center;
 }
 
 .techstacks_logo {

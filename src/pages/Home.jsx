@@ -33,6 +33,7 @@ function Home() {
       <Navbar />
       <h1 class="text-6xl text-center m-8">Welcome!</h1>
       <Home_about />
+      <h2>Hello, world!</h2>
     </body>
   );
 }
