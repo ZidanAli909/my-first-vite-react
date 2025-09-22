@@ -1,7 +1,7 @@
 import Navbar from "../components/common/Navbar";
 import "./Home.css";
 
-import zidanImg from "../assets/img/zidan/passphoto.webp";
+import zidanImg from "/img/zidan/passphoto.webp";
 
 // Components
 

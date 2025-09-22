@@ -10,7 +10,7 @@ function Navbar() {
           <Link to="/">Zidan Garage</Link>
         </div>
         <nav class="navbar-nav">
-          <Link class="navbar-navli active" to="/">
+          <Link class="navbar-navli" to="/">
             <span class="material-symbols-outlined filled">home</span>
             Home
           </Link>
@@ -18,18 +18,18 @@ function Navbar() {
             <span class="material-symbols-outlined filled">work</span>
             Portofolio
           </Link>
-          <a href="#">
+          <Link class="navbar-navli" to="/pictures">
             <span class="material-symbols-outlined filled">image</span>
-            Pictures
-          </a>
-          <a href="#">
+            Pics
+          </Link>
+          <Link class="navbar-navli" to="/funstuff">
             <span class="material-symbols-outlined filled">family_star</span>
             Fun Stuff
-          </a>
-          <a href="#">
+          </Link>
+          <Link class="navbar-navli" to="/survey">
             <span class="material-symbols-outlined filled">ballot</span>
             Survey
-          </a>
+          </Link>
         </nav>
       </div>
       <div class="navbar-break">

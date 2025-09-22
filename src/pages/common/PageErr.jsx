@@ -1,9 +1,11 @@
+import Navbar from "../../components/common/Navbar";
+
 function Page404() {
     return (
         <body>
-            <h1>Uh oh!</h1>
-            <p>Ada yang sedang bermasalah di sini...</p>
-            <p>Silahkan coba lagi nanti.</p>
+            <Navbar />
+            <h1 class="text-6xl text-center m-8">404</h1>
+            <p class="text-center mb-4">Halaman yang kamu cari tidak ditemukan. Mungkin salah ketik?</p>
         </body>
     );
 }

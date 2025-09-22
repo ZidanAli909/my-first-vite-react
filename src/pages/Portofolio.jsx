@@ -1,25 +1,25 @@
 import Navbar from "../components/common/Navbar";
 import "./Portofolio.css";
 // Logo
-import img_html from "../../public/svg/logo/html.svg";
-import img_css from "../../public/svg/logo/css.svg";
-import img_js from "../../public/svg/logo/javascript.svg";
-import img_react from "../../public/svg/logo/react.svg";
-import img_nodejs from "../../public/svg/logo/node-js.svg";
-import img_express from "../../public/svg/logo/express-js.svg";
-import img_bootstrap from "../../public/svg/logo/bootstrap.svg";
-import img_tailwind from "../../public/svg/logo/tailwind-css.svg";
-import img_mysql from "../../public/svg/logo/mysql.svg";
-import img_c from "../../public/svg/logo/c.svg";
-import img_cpp from "../../public/svg/logo/cpp.svg";
-import img_java from "../../public/svg/logo/java.svg";
-import img_android from "../../public/svg/logo/android-studio.svg";
-import img_kotlin from "../../public/svg/logo/kotlin.svg";
+import img_html from "/svg/logo/html.svg";
+import img_css from "/svg/logo/css.svg";
+import img_js from "/svg/logo/javascript.svg";
+import img_react from "/svg/logo/react.svg";
+import img_nodejs from "/svg/logo/node-js.svg";
+import img_express from "/svg/logo/express-js.svg";
+import img_bootstrap from "/svg/logo/bootstrap.svg";
+import img_tailwind from "/svg/logo/tailwind-css.svg";
+import img_mysql from "/svg/logo/mysql.svg";
+import img_c from "/svg/logo/c.svg";
+import img_cpp from "/svg/logo/cpp.svg";
+import img_java from "/svg/logo/java.svg";
+import img_android from "/svg/logo/android-studio.svg";
+import img_kotlin from "/svg/logo/kotlin.svg";
 // Logo (End)
 
 function Portofolio_stacks() {
   return (
-    <div class="bg-gray-700 w-full text-white">
+    <div class="techstacks_section">
       <div class="p-8">
         <div class="flex justify-center items-center mb-4">
           <h1 class="text-3xl font-semibold">Tech Stacks</h1>
@@ -38,16 +38,8 @@ function Portofolio_stacks() {
         </p>
       </div>
       <div class="techstacks_logo_contain w-3xl max-md:w-full">
-        <img
-          class="techstacks_logo"
-          src={img_html}
-          alt="Hypertext Markup Language"
-        />
-        <img
-          class="techstacks_logo"
-          src={img_css}
-          alt="Cascading Style Sheets"
-        />
+        <img class="techstacks_logo" src={img_html} alt="Hypertext Markup Language" />
+        <img class="techstacks_logo" src={img_css} alt="Cascading Style Sheets" />
         <img class="techstacks_logo" src={img_js} alt="JavaScript" />
         <img class="techstacks_logo" src={img_react} alt="React" />
         <img class="techstacks_logo" src={img_nodejs} alt="node.js" />
@@ -67,12 +59,15 @@ function Portofolio_stacks() {
 
 function Portofolio_list(portofolio) {
   return (
-    <section class="card card_portofolio w-4xl max-lg:w-full m-4">
-      <h1 class="text-2xl font-semibold">{portofolio.title}</h1>
+    <section class="card card_portofolio w-4xl max-lg:w-full m-4 ml-auto mr-auto">
+        <div class="m-2">
+            <h1 class="text-2xl font-semibold">{portofolio.title}</h1>
+        </div>
       <div class="flex flex-row">
-        <div>Test</div>
-        <div>
-          <p class="italic">{portofolio.createdAt}</p>
+        <div class="flex-1">
+            <img src="/img/photo/placeholder.webp" alt="placeholder" />
+        </div>
+        <div class="flex-2 p-4">
           <p>{portofolio.description}</p>
           <button class="button_portofolio_link">Read More</button>
         </div>
@@ -93,7 +88,10 @@ function Portofolio() {
       </p>
       <Portofolio_list
         title="Project 1"
-        createdAt="2023-01-01"
+        description="Lorem ipsum dolor sit amet."
+      />
+      <Portofolio_list
+        title="Project 2"
         description="Lorem ipsum dolor sit amet."
       />
       <Portofolio_stacks />

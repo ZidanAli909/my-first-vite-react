@@ -1,17 +1,32 @@
 @import "tailwindcss";
 
+.card_portofolio {
+    
+}
+
+.button_portofolio_link {
+    @apply m-4 p-2 bg-green-800 text-white rounded-lg;
+}
+
+.techstacks_section {
+    @apply bg-gray-700 w-full text-white bg-fixed;
+    background-image: url("/img/ui/shader_aero.webp");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
 .techstacks_logo_contain {
     @apply flex flex-row flex-wrap justify-center ml-auto mr-auto;
     @apply content-evenly items-center;
 }
 
 .techstacks_logo {
+    background: transparent;
     @apply w-20 h-20 m-4 drop-shadow-md;
-    @apply hover:w-30 hover:h-30;
+    @apply hover:w-32 hover:h-32 hover:m-0 hover:p-4;
     @apply transition-all;
 }
-
 .techstacks_logo:hover {
-    background: #ffffff;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
 }
