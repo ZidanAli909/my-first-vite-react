@@ -10,3 +10,8 @@
     @apply hover:w-30 hover:h-30;
     @apply transition-all;
 }
+
+.techstacks_logo:hover {
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 70%);
+}
