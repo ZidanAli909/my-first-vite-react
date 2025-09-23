@@ -4,7 +4,7 @@ import "./global.css";
 
 function Navbar() {
   return (
-    <div>
+    <section>
       <div class="navbar">
         <div class="navbar-hero">
           <Link to="/">Zidan Garage</Link>
@@ -17,10 +17,6 @@ function Navbar() {
           <Link class="navbar-navli" to="/portofolio">
             <span class="material-symbols-outlined filled">work</span>
             Portofolio
-          </Link>
-          <Link class="navbar-navli" to="/pictures">
-            <span class="material-symbols-outlined filled">image</span>
-            Pics
           </Link>
           <Link class="navbar-navli" to="/funstuff">
             <span class="material-symbols-outlined filled">family_star</span>
@@ -35,7 +31,7 @@ function Navbar() {
       <div class="navbar-break">
         If you can see this, you're breaking this site. Seek help!
       </div>
-    </div>
+    </section>
   );
 }
 

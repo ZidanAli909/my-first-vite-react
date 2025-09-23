@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-.card_portofolio {
-    
-}
-
 .button_portofolio_link {
     @apply m-4 p-2 bg-green-800 text-white rounded-lg;
 }
