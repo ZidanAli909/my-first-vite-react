@@ -59,7 +59,7 @@ function Portofolio_stacks() {
 
 function Portofolio_list(portofolio) {
   return (
-    <section class="card card_portofolio w-3xl max-md:w-full m-4 ml-auto mr-auto">
+    <section class="card card_portofolio max-w-3xl m-4 ml-auto mr-auto">
         <div class="m-2">
             <h1 class="text-2xl font-semibold">{portofolio.title}</h1>
         </div>

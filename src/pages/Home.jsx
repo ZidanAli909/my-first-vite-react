@@ -27,7 +27,7 @@ function Home() {
     <body class="bg-gray-100 w-full">
       <Navbar />
       <Home_welcome />
-      <section class="w-3xl max-md:w-full m-8 p-6 ml-auto mr-auto card">
+      <section class="max-w-3xl p-6 m-8 ml-auto mr-auto max-md:ml-4 max-md:mr-4 card">
         <h2 class="text-xl mb-2">Halo, nama saya Ahmad Zidan Ali!</h2>
         <p>{lipsum}</p>
       </section>
